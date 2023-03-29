@@ -1,7 +1,7 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: Source Code Pro, monospace;
+	font-family: Hack Nerd Font, monospace;
 	font-weight: bold;
 	font-size: 14px;
 	min-height: 0;
@@ -35,13 +35,13 @@ tooltip {
 
 #workspaces button.focused {
 	color: #eae9cb;
-	background: #eba0ac;
+	/* background: #eba0ac; */
 	border-radius: 10px;
 }
 
 #workspaces button.urgent {
-	color: #11111b;
-	background: #a6e3a1;
+	color: #eae9cb;
+	/* background: #a6e3a1; */
 	border-radius: 10px;
 }
 

@@ -12,7 +12,7 @@ window:
         y: 20
     dynamic_padding: false
 
-    opacity: 0.75
+    opacity: 0.70
     title: Alacritty
 
     dynamic_title: true
@@ -24,7 +24,10 @@ window:
     decorations_theme_variant: None
 
 scrolling:
-    history: 10000
+    history: 1000
+
+shell:
+    program: /usr/bin/zsh
 
 font:
     normal:
